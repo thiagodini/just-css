@@ -4,21 +4,18 @@
 ////////////////
 */
 
-  *, *:before, *:after { 
-    margin: 0; 
-    padding: 0; 
-    box-sizing: border-box; 
-  }
-  html, body { 
-    height: 100%; 
-    font-size: 10px; 
-  }
-  a, abbr, address, article, aside, audio, b, bdo, blockquote, br, button, canvas, cite, code, command, datalist, del, details, dfn, div, dl, em, embed, fieldset, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, i, iframe, img, input, ins, kbd, keygen, label, map, mark, math, menu, meter, nav, noscript, object, ol, output, p, pre, progress, q, ruby, s, samp, script, section, select, small, span, strong, sub, sup, svg, table, textarea, time, ul, var, video, wbr {
-    display: inline-block; 
-    width: 100%; 
-    word-spacing: -4px; 
-  }
-  h1, h2, h3, h4, h5, h6, hgroup,
-  a, abbr, area, audio, b, bdo, br, button, canvas, cite, code, command, datalist, del, dfn, em, embed, i, iframe, img, input, ins, kbd, keygen, label, link, map, mark, math, meta, meter, noscript, object, output, progress, q, ruby, s, samp, script, select, small, span, strong, sub, sup, svg, textarea, time, var, video, wbr {
-    word-spacing: normal; 
-  }
+*, *:before, *:after { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+	word-spacing: normal; 
+}
+html, body { 
+	height: 100%; 
+	font-size: 10px; 
+}
+article, aside, div, footer, header, nav, section {
+	display: inline-block; 
+	word-spacing: -4px; 
+	width: 100%; 
+}
