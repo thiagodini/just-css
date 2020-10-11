@@ -8,6 +8,9 @@
 	12 COLUMNS//
 	/////////*/
 
+	.cle-mod.mod-content.content-a, 
+	.cle-article .article-title, 
+	#cle-logo, 
 	.clear {
 		display: inline-block;
 		margin-left: 1.5%;
@@ -19,28 +22,31 @@
 	11 COLUMNS//
 	/////////*/
 
+	.cle-mod.mod-content.content-b, 
 	.clear {
 		display: inline-block;
 		margin-left: 1.5%;
 		margin-right: 1.5%;
-		width: 88.46%;
+		width: 88.66%;
 	}
 
 	/*///////////
 	10 COLUMNS//
 	/////////*/
 
+	.cle-mod.mod-content.content-c, 
 	.clear {
 		display: inline-block;
 		margin-left: 1.5%;
 		margin-right: 1.5%;
-		width: 80.3%;
+		width: 80.33%;
 	}
 
 	/*//////////
 	9 COLUMNS//
 	////////*/
 
+	.cle-mod.mod-content.content-d, 
 	.clear {
 		display: inline-block;
 		margin-left: 1.5%;
@@ -52,28 +58,31 @@
 	8 COLUMNS//
 	////////*/
 
+	.cle-mod.mod-content.content-e, 
 	.clear {
 		display: inline-block;
 		margin-left: 1.5%;
 		margin-right: 1.5%;
-		width: 63.46%;
+		width: 63.66%;
 	}
 
 	/*//////////
 	7 COLUMNS//
 	////////*/
 
+	.cle-mod.mod-content.content-f, 
 	.clear {
 		display: inline-block;
 		margin-left: 1.5%;
 		margin-right: 1.5%;
-		width: 55.3%;
+		width: 55.33%;
 	}
 
 	/*//////////
 	6 COLUMNS//
 	////////*/
 
+	.cle-mod.mod-content.content-g, 
 	.clear {
 		display: inline-block;
 		margin-left: 1.5%;
@@ -85,28 +94,32 @@
 	5 COLUMNS//
 	////////*/
 
+	.cle-mod.mod-content.content-h, 
 	.clear {
 		display: inline-block;
 		margin-left: 1.5%;
 		margin-right: 1.5%;
-		width: 38.46%;
+		width: 38.66%;
 	}
 
 	/*//////////
 	4 COLUMNS//
 	////////*/
 
+	.cle-mod.mod-content.content-i, 
+	.cle-section .section-subtitle,
 	.clear {
 		display: inline-block;
 		margin-left: 1.5%;
 		margin-right: 1.5%;
-		width: 30.3%;
+		width: 30.33%;
 	}
 
 	/*//////////
 	3 COLUMNS//
 	////////*/
 
+	.cle-mod.mod-content.content-j, 
 	.clear {
 		display: inline-block;
 		margin-left: 1.5%;
@@ -118,22 +131,25 @@
 	2 COLUMNS//
 	////////*/
 
+	.cle-mod.mod-content.content-k, 
+	.cle-section .section-title,
 	.clear {
 		display: inline-block;
 		margin-left: 1.5%;
 		margin-right: 1.5%;
-		width: 13.46%;
+		width: 13.66%;
 	}
 
 	/*/////////
 	1 COLUMN//
 	///////*/
 
+	.cle-mod.mod-content.content-l, 
 	.clear {
 		display: inline-block;
 		margin-left: 1.5%;
 		margin-right: 1.5%;
-		width: 5.3%;
+		width: 5.33%;
 	}
 
 	/*/////////

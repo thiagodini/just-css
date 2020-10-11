@@ -14,7 +14,7 @@ html, body {
 	height: 100%; 
 	font-size: 10px; 
 }
-article, aside, div, footer, header, nav, section {
+article, aside, div, footer, header, hgroup, nav, section {
 	display: inline-block; 
 	word-spacing: -4px; 
 	width: 100%; 
