@@ -1,0 +1,63 @@
+/*
+///////////////////////
+////CLEAR TYPOGRAPHY//
+/////////////////////
+*/
+
+
+	/*/////
+	TEXT//
+	///*/
+	
+	p, 
+	li {
+		margin-top: 0.8em;
+		font-size: 1.6em;
+		font-family: sans-serif;
+		color: #616161;
+	}
+	p li,
+	li p,
+	li li {
+		font-size: 1em;
+	}
+	li li {
+		margin-left: 1.6em;
+	}
+	small {
+		font-size: 0.8em;
+	}
+
+	/*///////
+	HEADER//
+	/////*/
+
+	h1,
+	h2,
+	h3, 
+	h4, 
+	h5, 
+	h6 {
+		margin-top: 2.4em;
+		font-family: sans-serif;
+		text-transform: lowercase;
+		color: #161616;
+	}
+	h1 {
+		font-size: 2.4em;
+	}
+	h2 {
+		font-size: 2em;
+	}
+	h3 {
+		font-size: 1.8em;
+	}
+	h4 {
+		font-size: 1.6em;
+	}
+	h5 {
+		font-size: 1.4em;
+	}
+	h6 {
+		font-size: 1.2em;
+	}

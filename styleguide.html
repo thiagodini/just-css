@@ -5,29 +5,26 @@
 	<title>Clear CSS</title>
 	<link rel="stylesheet" href="clear-reset.css" />
 	<link rel="stylesheet" href="clear-grid.css" media="all and (min-width: 640px)" />
-	<link rel="stylesheet" href="clear-debug.css" />
+	<link rel="stylesheet" href="clear-typography.css" />
+	<!-- <link rel="stylesheet" href="clear-debug.css" /> -->
 	<style>
-		hr {
-			margin: 1.5%;
-			margin-bottom: 0;
-		}
-		h1,
-		h2,
-		h3 {
-			margin-top: 2.4em;
-			font-family: sans-serif;
-		}
-		p {
-			margin-top: 0.8em;
-			font-family: sans-serif;
-		}
 		#cle {
 			text-align: center;
 		}
-		.cle-wrapper {
-			max-width: 1024px;
-			text-align: left;
-		}
+			hr {
+				border: none;
+				height: 1px;
+				color: currentColor;
+				background-color: currentColor;
+			}
+			.cle-wrapper {
+				padding: 1.5% 4.5%;
+				max-width: 1440px;
+				text-align: left;
+			}
+				.cle-wrapper .cle-wrapper {
+					padding: 0;
+				}
 	</style>
 </head>
 <body class="cle-pag" id="cle-styleguide">
@@ -48,6 +45,69 @@
 			</header>
 			<div class="article-content">
 				<div class="cle-wrapper">
+					<section class="cle-section section-typography" id="typography">
+						<header class="section-header">
+							<hgroup class="cle-wrapper">
+								<h2 class="section-title">Typography</h2>
+								<p class="section-subtitle">Examples of the Typography's use</p>
+							</hgroup>
+						</header>
+						<div class="section-content">
+							<div class="cle-wrapper">
+								<div class="cle-mod mod-content">
+									<div class="mod-item">
+										<h3 class="item-title">Headers</h3>
+										<div class="item-content">
+											<h1>Header level 1</h1>
+											<h2>Header level 2</h2>
+											<h3>Header level 3</h3>
+											<h4>Header level 4</h4>
+											<h5>Header level 5</h5>
+											<h6>Header level 6</h6>
+										</div>
+									</div>
+									<div class="mod-item">
+										<h3 class="item-title">Paragraphs</h3>
+										<div class="item-content">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae asperiores delectus beatae, ipsam reiciendis nobis recusandae aspernatur voluptas cupiditate tempore ratione nostrum inventore, odio, nesciunt ipsum hic eligendi minima totam.</p>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, molestias qui, eveniet tempora beatae vel! Quibusdam blanditiis nobis animi laboriosam illum repellat dolorum illo repudiandae id, reprehenderit incidunt quae totam.</p>
+										</div>
+									</div>
+									<div class="mod-item">
+										<h3 class="item-title">Unordened List</h3>
+										<div class="item-content">
+											<ul>
+												<li>
+													Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae inventore itaque exercitationem est quasi necessitatibus deleniti dicta quidem! Vero officia iste deleniti veniam esse dolorum soluta nesciunt aliquid quia earum?
+													<ul>
+														<li>
+															Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae inventore itaque exercitationem est quasi necessitatibus deleniti dicta quidem! Vero officia iste deleniti veniam esse dolorum soluta nesciunt aliquid quia earum?
+														</li>
+													</ul>
+												</li>
+												<li>
+													Eaque cupiditate mollitia quaerat nisi, pariatur animi, fugit, beatae ab sunt ad laborum tempore debitis provident nemo eligendi ipsum labore quae, suscipit velit aliquam explicabo quasi. In repellat, odio consequuntur.
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="mod-item">
+										<h3 class="item-title">Ordened List</h3>
+										<div class="item-content">
+											<ol>
+												<li>
+													Doloremque, provident! Quod enim praesentium, necessitatibus culpa inventore vero quidem sint error rerum molestias facilis odio sequi voluptate aperiam repudiandae dolore cum temporibus saepe magni, ad minima deserunt, quaerat debitis.
+												</li>
+												<li>
+													Iure similique aperiam fuga laudantium. Sunt reprehenderit, minima ipsa perspiciatis aperiam suscipit beatae ipsam! Ab aliquid esse architecto, optio tenetur rem quaerat doloribus accusamus similique voluptas. A nostrum, numquam illum!
+												</li>
+											</ol>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
 					<section class="cle-section section-grids" id="grids">
 						<header class="section-header">
 							<hgroup class="cle-wrapper">
@@ -59,117 +119,231 @@
 							<div class="cle-wrapper">
 								<div class="cle-mod mod-content content-l">
 									<h3 class="mod-title">1 column</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-l">
 									<h3 class="mod-title">1 column</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-l">
 									<h3 class="mod-title">1 column</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-l">
 									<h3 class="mod-title">1 column</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-l">
 									<h3 class="mod-title">1 column</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-l">
 									<h3 class="mod-title">1 column</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-l">
 									<h3 class="mod-title">1 column</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-l">
 									<h3 class="mod-title">1 column</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-l">
 									<h3 class="mod-title">1 column</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-l">
 									<h3 class="mod-title">1 column</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-l">
 									<h3 class="mod-title">1 column</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-l">
 									<h3 class="mod-title">1 column</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-k">
 									<h3 class="mod-title">2 columns</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-k">
 									<h3 class="mod-title">2 columns</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-k">
 									<h3 class="mod-title">2 columns</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-k">
 									<h3 class="mod-title">2 columns</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-k">
 									<h3 class="mod-title">2 columns</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-k">
 									<h3 class="mod-title">2 columns</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-j">
 									<h3 class="mod-title">3 columns</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-j">
 									<h3 class="mod-title">3 columns</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-j">
 									<h3 class="mod-title">3 columns</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-j">
 									<h3 class="mod-title">3 columns</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-i">
 									<h3 class="mod-title">4 columns</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-i">
 									<h3 class="mod-title">4 columns</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-i">
 									<h3 class="mod-title">4 columns</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-g">
 									<h3 class="mod-title">6 columns</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-g">
 									<h3 class="mod-title">6 columns</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-a">
 									<h3 class="mod-title">12 columns</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-l">
 									<h3 class="mod-title">1 column</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-b">
 									<h3 class="mod-title">11 columns</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-k">
 									<h3 class="mod-title">2 columns</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-c">
 									<h3 class="mod-title">10 columns</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-j">
 									<h3 class="mod-title">3 columns</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-d">
 									<h3 class="mod-title">9 columns</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-i">
 									<h3 class="mod-title">4 columns</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-e">
 									<h3 class="mod-title">8 columns</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-h">
 									<h3 class="mod-title">5 columns</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 								<div class="cle-mod mod-content content-f">
 									<h3 class="mod-title">7 columns</h3>
+									<div class="mod-content">
+										<p>Example.</p>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -178,5 +352,13 @@
 			</div>
 		</article>
 	</main>
+	<hr />
+	<footer id="cle-footer">
+		<div class="cle-wrapper">
+			<div class="footer-item">
+				<p><small>Clear CSS</small></p>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>	
