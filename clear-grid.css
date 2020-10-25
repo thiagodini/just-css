@@ -1,7 +1,7 @@
 /*
-/////////////////
-////CLEAR GRID//
-///////////////
+///////////
+////GRID//
+/////////
 */
 
 	/*///////////
@@ -122,6 +122,7 @@
 
 	.cle-mod.mod-content .mod-item, 
 	.cle-mod.mod-content.content-j, 
+	.cle-section .section-title,
 	.clear {
 		display: inline-block;
 		margin-left: 1.5%;
@@ -134,7 +135,6 @@
 	////////*/
 
 	.cle-mod.mod-content.content-k, 
-	.cle-section .section-title,
 	.clear {
 		display: inline-block;
 		margin-left: 1.5%;
