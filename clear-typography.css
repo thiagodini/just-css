@@ -6,6 +6,29 @@
 
 
 	/*/////
+	LINK//
+	///*/
+
+
+	a { 
+		color: blue;
+		text-decoration: none;
+	} 
+	a:hover, 
+	a:focus,
+	.hover, 
+	.focus { 
+		color: #161616;
+		text-decoration: underline;
+	}
+	a:active, 
+	.active { 
+		color: #161616;
+		text-shadow: currentColor 0.1px 0 0, currentColor -0.1px 0 0;
+	}
+
+
+	/*/////
 	TEXT//
 	///*/
 	
@@ -20,8 +43,8 @@
 	li {
 		list-style-position: inside;
 	}
-	p li,
-	li p,
+	p li, 
+	li p, 
 	li li {
 		font-size: 1em;
 	}

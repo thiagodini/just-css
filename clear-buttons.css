@@ -22,6 +22,8 @@
 	.cle-but:focus {
 		background-color: #161616;
 		border-color: #161616;
+		text-decoration: none;
+		color: white;
 	}
 	.cle-but[disabled] {
 		background-color: #616161;
