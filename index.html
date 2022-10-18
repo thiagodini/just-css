@@ -2,15 +2,15 @@
 <html lang="en-US" id="cle">
 <head>
 	<meta charset="utf-8">
-	<title>Clear CSS</title>
-	<link rel="stylesheet" href="clear-reset.css" />
-	<link rel="stylesheet" href="clear-grid.css" media="all and (min-width: 640px)" />
-	<link rel="stylesheet" href="clear-typography.css" />
-	<link rel="stylesheet" href="clear-components.css" />
-	<link rel="stylesheet" href="clear-forms.css" />
-	<!-- <link rel="stylesheet" href="clear-inspect.css" /> -->
+	<title>Just CSS</title>
+	<link rel="stylesheet" href="just-reset.css" />
+	<link rel="stylesheet" href="just-grid.css" media="all and (min-width: 640px)" />
+	<link rel="stylesheet" href="just-typography.css" />
+	<link rel="stylesheet" href="just-component.css" />
+	<link rel="stylesheet" href="just-form.css" />
+	<!-- <link rel="stylesheet" href="just-inspect.css" /> -->
 	<style>
-		#cle {
+		#just {
 			text-align: center;
 		}
 			hr {
@@ -19,44 +19,44 @@
 				color: currentColor;
 				background-color: currentColor;
 			}
-			.cle-wrapper {
+			.just-wrapper {
 				padding: 0.75% 4.5% 1.5%;
 				max-width: 1440px;
 				text-align: left;
 			}
-				.cle-wrapper .cle-wrapper {
+				.just-wrapper .just-wrapper {
 					padding: 0;
 				}
 	</style>
 </head>
-<body class="cle-pag" id="cle-styleguide">
-	<header id="cle-header">
-		<div class="cle-wrapper">
-			<div id="cle-logo">
-				<h1>Clear CSS</h1>
+<body class="just-pag" id="just-styleguide">
+	<header id="just-header">
+		<div class="just-wrapper">
+			<div id="just-logo">
+				<h1>Just CSS</h1>
 			</div>
 		</div>
 	</header>
 	<hr />
-	<main id="cle-content">
-		<article class="cle-article article-styleguide">
+	<main id="just-content">
+		<article class="just-article article-styleguide">
 			<header class="article-header">
-				<div class="cle-wrapper">
+				<div class="just-wrapper">
 					<h1 class="article-title">Styleguide</h1>
 				</div>
 			</header>
 			<div class="article-content">
-				<div class="cle-wrapper">
-					<section class="cle-section section-typography" id="typography">
+				<div class="just-wrapper">
+					<section class="just-section section-typography" id="typography">
 						<header class="section-header">
-							<hgroup class="cle-wrapper">
+							<hgroup class="just-wrapper">
 								<h2 class="section-title">Typography</h2>
 								<p class="section-subtitle">Usage examples</p>
 							</hgroup>
 						</header>
 						<div class="section-content">
-							<div class="cle-wrapper">
-								<div class="cle-mod mod-content">
+							<div class="just-wrapper">
+								<div class="just-mod mod-content">
 									<div class="mod-item">
 										<h3 class="item-title">Headers</h3>
 										<div class="item-content">
@@ -123,41 +123,41 @@
 							</div>
 						</div>
 					</section>
-					<section class="cle-section section-buttons" id="buttons">
+					<section class="just-section section-buttons" id="buttons">
 						<header class="section-header">
-							<hgroup class="cle-wrapper">
+							<hgroup class="just-wrapper">
 								<h2 class="section-title">Buttons</h2>
 								<p class="section-subtitle">Usage examples</p>
 							</hgroup>
 						</header>
 						<div class="section-content">
-							<div class="cle-mod mod-content">
+							<div class="just-mod mod-content">
 								<div class="mod-item">
 									<h3 class="item-title">Default</h3>
 										<div class="but-wrapper">
-										<a href="#" class="cle-com com-but">Primary</a>
-										<a href="#" class="cle-com com-but but-secondary">Secondary</a>
+										<a href="#" class="just-com com-but">Primary</a>
+										<a href="#" class="just-com com-but but-secondary">Secondary</a>
 									</div>
 								</div>
 								<div class="mod-item">
 									<h3 class="item-title">Disabled</h3>
 									<div class="but-wrapper">
-										<button class="cle-com com-but" disabled>Primary</button>
-										<button class="cle-com com-but but-secondary" disabled>Secondary</button>
+										<button class="just-com com-but" disabled>Primary</button>
+										<button class="just-com com-but but-secondary" disabled>Secondary</button>
 									</div>
 								</div>
 							</div>
 						</div>
 					</section>
-					<section class="cle-section section-forms" id="forms">
+					<section class="just-section section-forms" id="forms">
 						<header class="section-header">
-							<hgroup class="cle-wrapper">
+							<hgroup class="just-wrapper">
 								<h2 class="section-title">Forms</h2>
 								<p class="section-subtitle">Usage examples</p>
 							</hgroup>
 						</header>
 						<div class="section-content">
-							<form action="#" class="cle-mod mod-content cle-for">
+							<form action="#" class="just-mod mod-content just-for">
 								<legend class="for-header for-title">Form title</legend>
 								<div class="mod-content for-content">
 									<div class="mod-item">
@@ -207,249 +207,9 @@
 									</div>
 								</div>
 								<div class="mod-footer for-footer">
-									<input class="cle-com com-but but-action" type="submit" value="Submit" />
+									<input class="just-com com-but but-action" type="submit" value="Submit" />
 								</div>
 							</form>
-						</div>
-					</section>
-					<section class="cle-section section-grids" id="grids">
-						<header class="section-header">
-							<hgroup class="cle-wrapper">
-								<h2 class="section-title">Grids</h2>
-								<p class="section-subtitle">Usage examples</p>
-							</hgroup>
-						</header>
-						<div class="section-content">
-							<div class="cle-wrapper">
-								<div class="cle-mod mod-content content-l">
-									<h3 class="mod-title">1 column</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-l">
-									<h3 class="mod-title">1 column</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-l">
-									<h3 class="mod-title">1 column</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-l">
-									<h3 class="mod-title">1 column</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-l">
-									<h3 class="mod-title">1 column</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-l">
-									<h3 class="mod-title">1 column</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-l">
-									<h3 class="mod-title">1 column</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-l">
-									<h3 class="mod-title">1 column</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-l">
-									<h3 class="mod-title">1 column</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-l">
-									<h3 class="mod-title">1 column</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-l">
-									<h3 class="mod-title">1 column</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-l">
-									<h3 class="mod-title">1 column</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-k">
-									<h3 class="mod-title">2 columns</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-k">
-									<h3 class="mod-title">2 columns</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-k">
-									<h3 class="mod-title">2 columns</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-k">
-									<h3 class="mod-title">2 columns</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-k">
-									<h3 class="mod-title">2 columns</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-k">
-									<h3 class="mod-title">2 columns</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-j">
-									<h3 class="mod-title">3 columns</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-j">
-									<h3 class="mod-title">3 columns</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-j">
-									<h3 class="mod-title">3 columns</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-j">
-									<h3 class="mod-title">3 columns</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-i">
-									<h3 class="mod-title">4 columns</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-i">
-									<h3 class="mod-title">4 columns</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-i">
-									<h3 class="mod-title">4 columns</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-g">
-									<h3 class="mod-title">6 columns</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-g">
-									<h3 class="mod-title">6 columns</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-a">
-									<h3 class="mod-title">12 columns</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-l">
-									<h3 class="mod-title">1 column</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-b">
-									<h3 class="mod-title">11 columns</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-k">
-									<h3 class="mod-title">2 columns</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-c">
-									<h3 class="mod-title">10 columns</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-j">
-									<h3 class="mod-title">3 columns</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-d">
-									<h3 class="mod-title">9 columns</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-i">
-									<h3 class="mod-title">4 columns</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-e">
-									<h3 class="mod-title">8 columns</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-h">
-									<h3 class="mod-title">5 columns</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-								<div class="cle-mod mod-content content-f">
-									<h3 class="mod-title">7 columns</h3>
-									<div class="mod-content">
-										<p>Example.</p>
-									</div>
-								</div>
-							</div>
 						</div>
 					</section>
 				</div>
@@ -457,10 +217,10 @@
 		</article>
 	</main>
 	<hr />
-	<footer id="cle-footer">
-		<div class="cle-wrapper">
+	<footer id="just-footer">
+		<div class="just-wrapper">
 			<div class="footer-item">
-				<p><small>Clear CSS</small></p>
+				<p><small>Just CSS</small></p>
 			</div>
 		</div>
 	</footer>
