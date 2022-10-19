@@ -1,40 +1,34 @@
 <!DOCTYPE html>
-<html lang="en-US" id="cle">
+<html lang="en-US" id="just">
 <head>
 	<meta charset="utf-8">
-	<title>Just CSS</title>
-	<link rel="stylesheet" href="just-reset.css" />
-	<link rel="stylesheet" href="just-grid.css" media="all and (min-width: 640px)" />
-	<link rel="stylesheet" href="just-typography.css" />
-	<link rel="stylesheet" href="just-component.css" />
-	<link rel="stylesheet" href="just-form.css" />
+	<title>≋ Just CSS</title>
+	<link rel="stylesheet" href="just-resets.css" />
+	<link rel="stylesheet" href="just-typographies.css" />
+	<link rel="stylesheet" href="just-components.css" />
+	<link rel="stylesheet" href="just-forms.css" />
+	<link rel="stylesheet" href="just-structures.css" />
+	<link rel="stylesheet" href="just-grids.css" media="all and (min-width: 640px)" />
 	<!-- <link rel="stylesheet" href="just-inspect.css" /> -->
-	<style>
-		#just {
-			text-align: center;
-		}
-			hr {
-				border: none;
-				height: 1px;
-				color: currentColor;
-				background-color: currentColor;
-			}
-			.just-wrapper {
-				padding: 0.75% 4.5% 1.5%;
-				max-width: 1440px;
-				text-align: left;
-			}
-				.just-wrapper .just-wrapper {
-					padding: 0;
-				}
-	</style>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;600&family=Mukta Malar:wght@300&display=swap" rel="stylesheet" /> 
 </head>
 <body class="just-pag" id="just-styleguide">
 	<header id="just-header">
 		<div class="just-wrapper">
-			<div id="just-logo">
-				<h1>Just CSS</h1>
+			<div id="just-logo" class="just-gri gri-smaller">
+				<h1>≋ Just CSS</h1>
 			</div>
+			<nav id="just-navigation" class="just-gri gri-bigger">
+				<div class="just-com com-navigation">
+					<ul class="com-list">
+						<li class="navigation-item com-item"><a href="#">Typographies</a></li>
+						<li class="navigation-item com-item"><a href="#">Components</a></li>
+						<li class="navigation-item com-item"><a href="#">Forms</a></li>
+						<li class="navigation-item com-item"><a href="#">Grids</a></li>
+					</ul>
+					<a href="#" class="just-com com-button com-item">Download</a>
+				</div>
+			</nav>
 		</div>
 	</header>
 	<hr />
@@ -42,7 +36,7 @@
 		<article class="just-article article-styleguide">
 			<header class="article-header">
 				<div class="just-wrapper">
-					<h1 class="article-title">Styleguide</h1>
+					<h1 class="article-title just-gri gri-larger">Styleguide</h1>
 				</div>
 			</header>
 			<div class="article-content">
@@ -50,14 +44,14 @@
 					<section class="just-section section-typography" id="typography">
 						<header class="section-header">
 							<hgroup class="just-wrapper">
-								<h2 class="section-title">Typography</h2>
-								<p class="section-subtitle">Usage examples</p>
+								<h2 class="section-title just-gri gri-smaller">Typography</h2>
+								<p class="section-subtitle just-gri gri-bigger">Usage examples</p>
 							</hgroup>
 						</header>
 						<div class="section-content">
 							<div class="just-wrapper">
-								<div class="just-mod mod-content">
-									<div class="mod-item">
+								<div class="just-com com-content">
+									<div class="com-item just-gri gri-smaller">
 										<h3 class="item-title">Headers</h3>
 										<div class="item-content">
 											<h1>Header level 1</h1>
@@ -68,7 +62,7 @@
 											<h6>Header level 6</h6>
 										</div>
 									</div>
-									<div class="mod-item">
+									<div class="com-item just-gri gri-smaller">
 										<h3 class="item-title">Links</h3>
 										<div class="item-content">
 											<ul>
@@ -88,7 +82,7 @@
 											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae asperiores delectus beatae, ipsam reiciendis nobis recusandae nostrum inventore, nesciunt ipsum hic eligendi.</p>
 										</div>
 									</div>
-									<div class="mod-item">
+									<div class="com-item just-gri gri-smaller">
 										<h3 class="item-title">Unordened List</h3>
 										<div class="item-content">
 											<ul>
@@ -106,7 +100,7 @@
 											</ul>
 										</div>
 									</div>
-									<div class="mod-item">
+									<div class="com-item just-gri gri-smaller">
 										<h3 class="item-title">Ordened List</h3>
 										<div class="item-content">
 											<ol>
@@ -126,24 +120,24 @@
 					<section class="just-section section-buttons" id="buttons">
 						<header class="section-header">
 							<hgroup class="just-wrapper">
-								<h2 class="section-title">Buttons</h2>
-								<p class="section-subtitle">Usage examples</p>
+								<h2 class="section-title just-gri gri-smaller">Buttons</h2>
+								<p class="section-subtitle just-gri gri-bigger">Usage examples</p>
 							</hgroup>
 						</header>
 						<div class="section-content">
-							<div class="just-mod mod-content">
-								<div class="mod-item">
+							<div class="just-com com-content">
+								<div class="com-item just-gri gri-smaller">
 									<h3 class="item-title">Default</h3>
-										<div class="but-wrapper">
-										<a href="#" class="just-com com-but">Primary</a>
-										<a href="#" class="just-com com-but but-secondary">Secondary</a>
+									<div class="just-com com-navigation">
+										<a href="#" class="com-item just-com com-button">Primary</a>
+										<a href="#" class="com-item just-com com-button button-secondary">Secondary</a>
 									</div>
 								</div>
-								<div class="mod-item">
+								<div class="com-item just-gri gri-smaller">
 									<h3 class="item-title">Disabled</h3>
-									<div class="but-wrapper">
-										<button class="just-com com-but" disabled>Primary</button>
-										<button class="just-com com-but but-secondary" disabled>Secondary</button>
+									<div class="just-com com-navigation">
+										<button class="com-item just-com com-button" disabled>Primary</button>
+										<button class="com-item just-com com-button button-secondary" disabled>Secondary</button>
 									</div>
 								</div>
 							</div>
@@ -152,15 +146,15 @@
 					<section class="just-section section-forms" id="forms">
 						<header class="section-header">
 							<hgroup class="just-wrapper">
-								<h2 class="section-title">Forms</h2>
-								<p class="section-subtitle">Usage examples</p>
+								<h2 class="section-title just-gri gri-smaller">Forms</h2>
+								<p class="section-subtitle just-gri gri-bigger">Usage examples</p>
 							</hgroup>
 						</header>
 						<div class="section-content">
-							<form action="#" class="just-mod mod-content just-for">
-								<legend class="for-header for-title">Form title</legend>
-								<div class="mod-content for-content">
-									<div class="mod-item">
+							<form action="#" class="just-com com-content just-for">
+								<legend class="for-header for-title just-gri gri-larger">Form title</legend>
+								<div class="com-content for-content">
+									<div class="com-item just-gri gri-smaller">
 										<div class="for-item">
 											<label class="item-title" for="item-1">Text field 1</label>
 											<input id="item-1" type="text" class="item-element" placeholder="Field instructions" />
@@ -170,7 +164,7 @@
 											<input id="item-2" type="text" class="item-element" placeholder="Insert a value" value="Defined value" />
 										</div>
 									</div>
-									<div class="mod-item">
+									<div class="com-item just-gri gri-smaller">
 										<div class="for-item">
 											<label class="item-title" for="item-3">Text field 3</label>
 											<input id="item-3" placeholder="Email text field" type="email" class="item-element element-email" />
@@ -185,7 +179,7 @@
 											</select>
 										</div>
 									</div>
-									<div class="mod-item">
+									<div class="com-item just-gri gri-smaller">
 										<div class="for-item">
 											<label class="item-title" for="item-5">*Text field required</label>
 											<input id="item-5" required="required" type="text" class="item-element" />
@@ -195,7 +189,7 @@
 											<input id="item-6" type="text" class="item-element" />
 										</div>
 									</div>
-									<div class="mod-item">
+									<div class="com-item just-gri gri-smaller">
 										<div class="for-item">
 											<label class="item-title" for="item-7">Textarea</label>
 											<textarea id="item-7" class="item-element"></textarea>
@@ -206,8 +200,8 @@
 										</div>
 									</div>
 								</div>
-								<div class="mod-footer for-footer">
-									<input class="just-com com-but but-action" type="submit" value="Submit" />
+								<div class="com-footer for-footer just-gri gri-larger">
+									<input class="just-com com-button button-action" type="submit" value="Submit" />
 								</div>
 							</form>
 						</div>
@@ -220,7 +214,7 @@
 	<footer id="just-footer">
 		<div class="just-wrapper">
 			<div class="footer-item">
-				<p><small>Just CSS</small></p>
+				<p><small>≋ Just CSS</small></p>
 			</div>
 		</div>
 	</footer>

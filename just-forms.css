@@ -1,0 +1,31 @@
+/*
+////////////
+////FORMS//
+//////////
+*/
+	
+	.just-for {
+	}
+		.just-for .for-title {
+		}
+		.just-for .for-item {
+			margin-top: 1.6rem;
+		}
+			.just-for .for-item .item-element {
+				width: 100%;
+				display: block;
+				padding: 0.8rem;
+				font-size: 1.6em;
+				line-height: 150%;
+				font-family: sans-serif;
+				text-decoration: none;
+				color: #161616;
+				border: 0.2rem limegreen solid;
+				font-weight: bold;
+				background-color: white;
+			}
+			.just-for .for-item .item-element:hover, 
+			.just-for .for-item .item-element:focus {
+				border-color: #161616;
+				text-decoration: none;
+			}

@@ -1,0 +1,56 @@
+/*
+/////////////////
+////COMPONENTS//
+///////////////
+*/
+	.just-com.com-navigation {
+		margin-left: -0.8rem;
+		margin-right: -0.8rem;
+	}
+		.just-com.com-navigation .com-list,
+		.just-com.com-navigation .com-item {
+			display: inline-block;
+		}
+		.just-com.com-navigation .com-item {
+			margin-left: 0.8rem;
+			margin-right: 0.8rem;
+		}
+
+	.just-com.com-button {
+		display: inline-block;
+		padding: 0.8rem 1.6rem;
+		margin-top: 1.6rem;
+		font-size: 1.6em;
+		line-height: 150%;
+		font-family: sans-serif;
+		text-decoration: none;
+		color: white;
+		background-color: limegreen;
+		border: 0.2rem limegreen solid;
+		font-weight: bold;
+	}
+	.just-com.com-button:hover, 
+	.just-com.com-button:focus {
+		background-color: #161616;
+		border-color: #161616;
+		text-decoration: none;
+		color: white;
+	}
+	.just-com.com-button[disabled] {
+		background-color: #616161;
+		border-color: #616161;
+	}
+
+	.just-com.com-button.button-secondary {
+		background-color: white;
+		color: limegreen;
+	}
+	.just-com.com-button.button-secondary:hover, 
+	.just-com.com-button.button-secondary:focus {
+		color: #161616;
+		border-color: #161616;
+	}
+	.just-com.com-button[disabled].button-secondary {
+		color: #616161;
+		border-color: #616161;
+	}
