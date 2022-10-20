@@ -6,10 +6,10 @@
 
 	#just {
 		text-align: center;
-		font-size: 18px;
+		font-size: 10px;
 	}
 	body {
-		font-size: 14px;
+		font-size: 10px;
 	}
 		hr {
 			border: none;
@@ -19,9 +19,39 @@
 		}
 		.just-wrapper {
 			padding: 1.6rem 4.8rem 3.2rem;
-			max-width: 1440px;
+			max-width: 1600px;
 			text-align: left;
 		}
 			.just-wrapper .just-wrapper {
 				padding: 0;
 			}
+
+@media (min-width: 640px) {
+	#just {
+		font-size: 14px;
+	}
+	body {
+		font-size: 10px;
+	}
+}
+
+@media (min-width: 640px) {
+	#just {
+		font-size: 16px;
+	}
+	body {
+		font-size: 12px;
+	}
+}
+
+@media (min-width: 960px) {
+	#just {
+		font-size: 18px;
+	}
+	body {
+		font-size: 14px;
+	}
+		#just-navigation {
+			text-align: right;
+		}
+}

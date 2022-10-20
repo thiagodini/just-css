@@ -16,6 +16,7 @@
 				display: block;
 				padding: 0.8rem;
 				font-size: 1.6em;
+				height: 3.2em;
 				line-height: 150%;
 				font-family: sans-serif;
 				text-decoration: none;
@@ -28,4 +29,7 @@
 			.just-for .for-item .item-element:focus {
 				border-color: #161616;
 				text-decoration: none;
+			}
+			.just-for .for-item textarea.item-element {
+				height: 4.8em;
 			}
