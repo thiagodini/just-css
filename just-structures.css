@@ -6,7 +6,7 @@
 
 	#just {
 		text-align: center;
-		font-size: 10px;
+		font-size: 6px;
 	}
 	body {
 		font-size: 10px;
@@ -25,6 +25,15 @@
 			.just-wrapper .just-wrapper {
 				padding: 0;
 			}
+
+@media (min-width: 360px) {
+	#just {
+		font-size: 10px;
+	}
+	body {
+		font-size: 10px;
+	}
+}
 
 @media (min-width: 640px) {
 	#just {
