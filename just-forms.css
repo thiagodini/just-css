@@ -22,7 +22,7 @@
 				font-family: sans-serif;
 				text-decoration: none;
 				color: #161616;
-				border: 0.2rem limegreen solid;
+				border: 0.2em limegreen solid;
 				font-weight: bold;
 				background-color: white;
 			}
@@ -33,5 +33,5 @@
 			}
 			.just-for .for-item textarea.item-element {
 				height: 5.8rem;
-				min-height: 2em;
+				min-height: 4em;
 			}

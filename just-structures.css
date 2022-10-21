@@ -13,7 +13,7 @@
 	}
 		hr {
 			border: none;
-			height: 0.1rem;
+			height: 0.1em;
 			color: currentColor;
 			background-color: currentColor;
 		}
@@ -55,10 +55,22 @@
 
 @media (min-width: 960px) {
 	#just {
+		font-size: 14px;
+	}
+	body {
+		font-size: 12px;
+	}
+		#just-navigation {
+			text-align: right;
+		}
+}
+
+@media (min-width: 1440px) {
+	#just {
 		font-size: 18px;
 	}
 	body {
-		font-size: 14px;
+		font-size: 12px;
 	}
 		#just-navigation {
 			text-align: right;

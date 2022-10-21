@@ -70,14 +70,14 @@
 		color: #161616;
 	}
 	h1 {
-		font-size: 2.4em;
+		font-size: 3em;
 	}
 	h2 {
-		font-size: 2em;
+		font-size: 2.2em;
 	}
 	h3,
 	legend {
-		font-size: 1.8em;
+		font-size: 1.9em;
 	}
 	h4 {
 		font-size: 1.6em;
@@ -86,5 +86,5 @@
 		font-size: 1.4em;
 	}
 	h6 {
-		font-size: 1.2em;
+		font-size: 1.3em;
 	}
