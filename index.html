@@ -129,17 +129,19 @@
 							<div class="just-com com-content">
 								<div class="com-item just-gri gri-small">
 									<h3 class="item-title">Buttons</h3>
-									<div class="just-com com-navigation">
-										<a href="#" class="com-item just-com com-button">Primary</a>
-										<a href="#" class="com-item just-com com-button button-secondary">Secondary</a>
-										<button class="com-item just-com com-button" disabled>Primary</button>
-										<button class="com-item just-com com-button button-secondary" disabled>Secondary</button>
+									<div class="item-content">
+										<div class="just-com com-navigation">
+											<a href="#" class="com-item just-com com-button">Primary</a>
+											<a href="#" class="com-item just-com com-button button-secondary">Secondary</a>
+											<button class="com-item just-com com-button" disabled>Primary</button>
+											<button class="com-item just-com com-button button-secondary" disabled>Secondary</button>
+										</div>
 									</div>
 								</div>
 								<div class="com-item just-gri gri-small">
 									<h3 class="item-title">Navigation</h3>
-									<div class="just-com com-navigation">
-										<ul>
+									<div class="item-content">
+										<ul class="just-com com-navigation">
 											<li class="com-item"><a href="#">Item 1</a></li>
 											<li class="com-item"><a href="#">Item 2</a></li>
 											<li class="com-item"><a href="#">Item 3</a></li>
@@ -160,55 +162,48 @@
 						<div class="section-content">
 							<form action="#" class="just-com com-content just-for">
 								<legend class="for-header for-title just-gri gri-larger">Form title</legend>
-								<div class="com-content for-content">
-									<div class="com-item just-gri gri-smaller">
-										<div class="for-item">
-											<label class="item-title" for="item-1">Text field 1</label>
-											<input id="item-1" type="text" class="item-element" placeholder="Field instructions" />
-										</div>
-										<div class="for-item">
-											<label class="item-title" for="item-2">Text field 2</label>
-											<input id="item-2" type="text" class="item-element" placeholder="Insert a value" value="Defined value" />
-										</div>
-									</div>
-									<div class="com-item just-gri gri-smaller">
-										<div class="for-item">
-											<label class="item-title" for="item-3">Text field 3</label>
-											<input id="item-3" placeholder="Email text field" type="email" class="item-element element-email" />
-										</div>
-										<div class="for-item">
-											<label class="item-title" for="item-4">Select field 1</label>
-											<select id="item-4" class="item-element">
-												<option value="">Select a option</option>
-												<option value="1">Option 1</option>
-												<option value="2">Option 2</option>
-												<option value="3">Option 3</option>
-											</select>
-										</div>
-									</div>
-									<div class="com-item just-gri gri-smaller">
-										<div class="for-item">
-											<label class="item-title" for="item-5">*Text field required</label>
-											<input id="item-5" required="required" type="text" class="item-element" />
-										</div>
-										<div class="for-item">
-											<label class="item-title">Label whitout "for"</label>
-											<input id="item-6" type="text" class="item-element" />
-										</div>
-									</div>
-									<div class="com-item just-gri gri-smaller">
-										<div class="for-item">
-											<label class="item-title" for="item-7">Textarea</label>
-											<textarea id="item-7" class="item-element"></textarea>
-										</div>
-										<div class="for-item">
-											<label class="item-title" hidden for="item-6">Hidden label</label>
-											<input id="item-8" placeholder="Field with hidden label" type="text" class="item-element" />
+								<div class="com-content for-content just-gri gri-larger">
+									<div class="com-item">
+										<div class="item-content">
+											<div class="for-item just-gri gri-smaller">
+												<label class="item-title" for="item-1">Text field 1</label>
+												<input id="item-1" type="text" class="item-element" placeholder="Field instructions" />
+											</div>
+											<div class="for-item just-gri gri-smaller">
+												<label class="item-title" for="item-2">Text field 2</label>
+												<input id="item-2" type="text" class="item-element" placeholder="Insert a value" value="Defined value" />
+											</div>
+											<div class="for-item just-gri gri-smaller">
+												<label class="item-title" for="item-3">Text field 3</label>
+												<input id="item-3" placeholder="Email text field" type="email" class="item-element element-email" />
+											</div>
+											<div class="for-item just-gri gri-smaller">
+												<label class="item-title" for="item-4">Select field 1</label>
+												<select id="item-4" class="item-element">
+													<option value="">Select a option</option>
+													<option value="1">Option 1</option>
+													<option value="2">Option 2</option>
+													<option value="3">Option 3</option>
+												</select>
+											</div>
+											<div class="for-item just-gri gri-smaller">
+												<label class="item-title" for="item-5">*Text field required</label>
+												<input id="item-5" required="required" type="text" class="item-element" />
+											</div>
+											<div class="for-item just-gri gri-smaller">
+												<label class="item-title">Label whitout "for"</label>
+												<input id="item-6" type="text" class="item-element" />
+											</div>
+											<div class="for-item just-gri gri-smaller">
+												<label class="item-title" for="item-7">Textarea</label>
+												<textarea id="item-7" class="item-element"></textarea>
+											</div>
+											<div class="for-item just-gri gri-smaller">
+												<label class="item-title" hidden for="item-6">Hidden label</label>
+												<input id="item-8" placeholder="Field with hidden label" type="text" class="item-element" />
+											</div>
 										</div>
 									</div>
-								</div>
-								<div class="com-footer for-footer just-gri gri-larger">
-									<button class="just-com com-button button-action" type="submit">Submit</button>
 								</div>
 							</form>
 						</div>

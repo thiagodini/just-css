@@ -14,8 +14,8 @@
 		hr {
 			border: none;
 			height: 0.1em;
-			color: currentColor;
-			background-color: currentColor;
+			color: transparent;
+			background-color: #a7a7a7;
 		}
 		.just-wrapper {
 			padding: 1.6rem 3.2rem 3.2rem;

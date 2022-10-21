@@ -55,3 +55,14 @@
 			margin-left: 0.8rem;
 			margin-right: 0.8rem;
 		}
+
+	.just-com.com-content {
+	}
+		.just-com.com-content .com-item .item-content {
+			margin-left: -1.6rem;
+			width: calc(100% + 1.6rem)
+			margin-top: 1.6rem;
+			border-left: 0.1em #a7a7a7 solid;
+			padding-left: 1.6rem;
+			padding-bottom: 1.6rem;
+		}
